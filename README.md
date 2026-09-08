@@ -1,16 +1,16 @@
-## Hi there 👋
+# Damian Szczapa
 
-<!--
-**Sztalke/Sztalke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Machine vision engineer at an industrial systems integrator (Warsaw, Poland). I build deep-learning quality inspection systems end to end: hardware selection (optics, lighting, cameras, GPU workstations), model training and validation (classification, object detection, anomaly detection, OCR), inference (ONNX Runtime, NVIDIA Triton) and PLC integration.
 
-Here are some ideas to get you started:
+**Current work (private repositories):**
+- Online anomaly detection system trained by the line operator from ~50 OK samples in ~15 minutes, with threshold estimation on a small validation set and an operator-friendly % score.
+- ONNX Runtime / CUDA inference engine running as a Cognex Designer plugin (C#/.NET).
+- Multi-view quality inspection pipeline: segmentation → object detection (RF-DETR) → classification (EfficientNet) + OCR (PaddleOCR), Hungarian matching across views, noisy-OR business rules, served on Triton (Linux, Docker, PyTorch).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Public repositories:**
+- [RES-CAE-AnomalyDetection](https://github.com/Sztalke/RES-CAE-AnomalyDetection) – residual convolutional autoencoder for image anomaly detection (PyTorch).
+- [CNN-AE](https://github.com/Sztalke/CNN-AE) – convolutional autoencoder for semantic segmentation, implemented from scratch in NumPy.
+
+Stack: C#, .NET, WPF, Python, PyTorch, ONNX, CUDA, Triton, Docker, Linux, Cognex Designer / VPDL, Siemens S7-1200.
+
+Contact: szczapa.damian@gmail.com
